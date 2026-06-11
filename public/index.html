@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Colaborativo en Tiempo Real</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="chat-header">
+            <div class="header-content">
+                <h1>💬 Chat Colaborativo</h1>
+                <div class="connection-status">
+                    <span class="status-indicator" id="statusIndicator"></span>
+                    <span class="status-text" id="statusText">Conectando...</span>
+                </div>
+            </div>
+            <div class="users-info">
+                <span>👥 Usuarios en línea: <strong id="usersCount">0</strong></span>
+            </div>
+        </header>
+
+        <!-- Área de mensajes -->
+        <main class="chat-container">
+            <div class="messages-area" id="messagesArea">
+                <div class="welcome-message">
+                    <h2>Bienvenido al Chat Colaborativo</h2>
+                    <p>Conectándose al servidor...</p>
+                </div>
+            </div>
+        </main>
+
+        <!-- Área de entrada -->
+        <footer class="chat-footer">
+            <form class="message-form" id="messageForm">
+                <input 
+                    type="text" 
+                    id="messageInput" 
+                    class="message-input" 
+                    placeholder="Escribe tu mensaje aquí..." 
+                    disabled
+                    autocomplete="off"
+                >
+                <button type="submit" class="send-btn" id="sendBtn" disabled>
+                    ➤ Enviar
+                </button>
+            </form>
+            <div class="info-footer">
+                Tu nombre: <strong id="usernameBadge">-</strong>
+            </div>
+        </footer>
+    </div>
+
+    <script src="client.js"></script>
+</body>
+</html>
