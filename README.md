@@ -200,7 +200,7 @@ Este proyecto está bajo la licencia **MIT**. Eres libre de usarlo, modificarlo 
 
 
 ## 👥 Autores
-
+CARLA GISELA SULLCANI LOBO
 
 
 ## 📚 Recursos Útiles
