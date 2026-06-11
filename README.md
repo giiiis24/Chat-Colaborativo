@@ -1,6 +1,4 @@
 
-# Chat-Colaborativo
-
 # 💬 Chat Colaborativo en Tiempo Real con WebSocket
 
 ## 📋 Descripción del Proyecto
@@ -187,15 +185,6 @@ Este proyecto está bajo la licencia **MIT**. Eres libre de usarlo, modificarlo 
 
 ## 👥 Autores
 CARLA GISELA SULLCANI LOBO
-
-
-## 📚 Recursos Útiles
-
-
-
-## 💡 Ideas de Mejora
-
-
 
 ## 📞 Soporte
 
