@@ -1,19 +1,11 @@
-<<<<<<< HEAD
+
 # Chat-Colaborativo
-=======
+
 # 💬 Chat Colaborativo en Tiempo Real con WebSocket
 
 ## 📋 Descripción del Proyecto
 
 Sistema de Chat Colaborativo que permite a múltiples usuarios comunicarse en tiempo real mediante WebSocket. Fue desarrollado como parte de un proyecto educativo para comprender la comunicación bidireccional persistente entre cliente y servidor.
-
-**Características principales:**
-
-
-## 🛠️ Requisitos Técnicos
-
-### Software requerido:
-
 
 ## 📦 Instalación
 
@@ -43,12 +35,12 @@ El servidor se iniciará en `http://localhost:3000`
 
 Verás un mensaje en la terminal:
 ```
-╔════════════════════════════════════════════════════════╗
-║   🚀 SERVIDOR DE CHAT COLABORATIVO INICIADO            ║
-║   🌐 Escuchando en: http://localhost:3000              ║
-║   📡 WebSocket habilitado                              ║
-║   ✅ Listo para aceptar conexiones                     ║
-╚════════════════════════════════════════════════════════╝
+╔══                                                    ══╗
+   🚀 SERVIDOR DE CHAT COLABORATIVO INICIADO            
+   🌐 Escuchando en: http://localhost:3000              
+   📡 WebSocket habilitado                              
+   ✅ Listo para aceptar conexiones                     
+╚══                                                    ══╝
 ```
 
 
@@ -77,12 +69,6 @@ ChatColaborativo/
 
 
 ## 📝 Especificaciones Técnicas
-
-### Arquitectura:
-
-### Puerto:
-
-### Comunicación WebSocket:
 
 #### Mensajes del Cliente → Servidor:
 ```json
